@@ -1,0 +1,35 @@
+---
+description: Before inventing UI, consult the global Shared UI catalog; filter by stack; cite sources.
+alwaysApply: true
+---
+
+# Global UI catalog (cross-repo)
+
+**SSOT on disk:** `/Users/Shared/Developer/cursor/ui-catalog/`  
+**GitHub mirror:** `https://github.com/baturmont/ui-catalog`  
+**Skill:** `ui-catalog` (read `WORKFLOW.md` and follow it)
+
+## When this applies
+
+Any frontend design, redesign, new page, component, landing, dashboard chrome, or mobile UI — in **any** repo or greenfield project.
+
+## Agent must
+
+1. Open the catalog (`README` → `INDEX` → `SOURCES` / `favorites`) **before** freehanding UI.
+2. Detect or confirm **stack** (`STACK-FILTERS.md`): vanilla | vite-react | next | vue | mobile | …
+3. Shortlist **2–3** real components with source URLs; recommend one.
+4. Install via official path or port per workflow (no fake import paths).
+5. Apply **repo brand/tokens only if that repo defines them** — catalog is not product-specific.
+6. Optional **Superdesign** only **after** a catalog direction is chosen (variants of that direction).
+7. Optional **ui-ux-pro-max** for a11y/touch/contrast — not a component store.
+
+## Agent must not
+
+- Invent a full button/sheet/nav system when the catalog covers it
+- Drop React kits into vanilla HTML repos without an explicit stack migration
+- Default to purple-gradient / Inter-only / glassmorphism clichés (`refs/anti-generic.md`)
+- Skip source citation in the reply or PR
+
+## Output
+
+Use the shortlist table from `ui-catalog/WORKFLOW.md` when proposing UI.
